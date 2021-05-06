@@ -3,15 +3,15 @@
     padding: 5px;
 }
 body {
-    background-image: url(https://lh3.googleusercontent.com/proxy/uv3bTD7m2aHkken8lon7lrUDiUqNKXbD56aZecAzSMdB_hNPliJzdpayUbcB40VgCeJCGAajf47X6wolAHF5mLwO3C-J3m1A6oGvEopSDeVjAw9S4sZvcPW0X0vEToK_125T8ZLZ);
+    background-image: url(https://lh3.googleusercontent.com/proxy/ZnMA4qdDQxExobjEai0NiuOZxk9k3iiPqmT3pNGM8fr0xIc-1Ijq20gs6ytkv2yN0G1B_MzSm0VN9gsRaxyu0iDDNWhJliwT6wLsFzlYwY7F3kUWgy8ZkyGF2B1BKDxcXFq08gki);
 }
 #h1 {
     display: flex;
     letter-spacing: 2px;
     line-height: 40px;
-    texst-align: justify;
+    text-align: justify;
     text-decoration: underline;
-    texst-indent: 25px;
+    text-indent: 25px;
     text-shadow: rgb(80, 4, 204) 4px 6px 4px;
     color: lavender;
     font-size: xx-large;
@@ -34,15 +34,31 @@ body {
     display: flex;
     letter-spacing: 2px;
     line-height: 40px;
-    texst-align: justify;
+    text-align: justify;
     text-decoration: underline;
-    texst-indent: 25px;
+    text-indent: 25px;
     text-shadow: rgb(80, 4, 204) 4px 6px 4px;
     color: lavender;
     font-size: xx-large;
     font-style: italic;
 }
 #c2 {
-    width:1300px;
+    width:1000px;
     height:500px;
+}
+#g {
+    width: 700px;
+    height: 500px;
+}
+div {
+    display: flex;
+    max-width: 500px;
+    min-width: 200px;
+    align-items:center;
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    text-decoration: underline;
+    text-shadow: rgb(179, 4, 202) 4px 6px 4px;
+    text-transform: capitalize;
 }
