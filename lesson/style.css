@@ -1,21 +1,19 @@
 * {
-    margin: 5px;
-    padding: 5px;
+    margin: 0px;
+    padding: 0px;
 }
 body {
-    background-image: url(https://lh3.googleusercontent.com/proxy/ZnMA4qdDQxExobjEai0NiuOZxk9k3iiPqmT3pNGM8fr0xIc-1Ijq20gs6ytkv2yN0G1B_MzSm0VN9gsRaxyu0iDDNWhJliwT6wLsFzlYwY7F3kUWgy8ZkyGF2B1BKDxcXFq08gki);
+    background-color: rgb(255, 255, 255);
 }
 #h1 {
+    background-color: rgb(211, 210, 210);
     display: flex;
-    letter-spacing: 2px;
-    line-height: 40px;
-    text-align: justify;
-    text-decoration: underline;
-    text-indent: 25px;
-    text-shadow: rgb(80, 4, 204) 4px 6px 4px;
-    color: lavender;
-    font-size: xx-large;
-    font-style: italic;
+    letter-spacing: 1px;
+    line-height: 50px;
+    font-style: oblique;
+    font-size: 25px;
+    margin: 0px;
+    padding: 10px;
 }   
 #h {
     display: flex;
@@ -25,40 +23,38 @@ body {
     list-style-type: none;
 }
 #h2 {
+    background-color: rgb(250, 245, 245);
     width: 100%;
     height: 75px;
     position: fixed;
     font-size: xx-large;
 }
-#c1 {
+#j {
+    border-radius: 400px;
+}
+#u {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 241, 241);
+}
+footer {
+    color: white;
+    background-color: black;
     display: flex;
-    letter-spacing: 2px;
-    line-height: 40px;
-    text-align: justify;
-    text-decoration: underline;
-    text-indent: 25px;
-    text-shadow: rgb(80, 4, 204) 4px 6px 4px;
-    color: lavender;
-    font-size: xx-large;
-    font-style: italic;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
 }
-#c2 {
-    width:1000px;
-    height:500px;
+div a {
+    color: white;
+    text-align: center;
+    justify-content: center;
 }
-#g {
-    width: 700px;
-    height: 500px;
+#i {
+    font-size: 25px;
 }
-div {
-    display: flex;
-    max-width: 500px;
-    min-width: 200px;
-    align-items:center;
-    font-size: xx-large;
-    color: rgb(255, 255, 255);
-    font-style: italic;
-    text-decoration: underline;
-    text-shadow: rgb(179, 4, 202) 4px 6px 4px;
-    text-transform: capitalize;
+#p {
+    font-size: 15px;
 }
+
+
